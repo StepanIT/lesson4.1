@@ -14,15 +14,25 @@
   }
 }
   
-{
-  const numberOfPointsInMathematics = parseInt(prompt('Введите кол-во баллов по математике:'));
-  const numberOfPointsInRussianLanguage = parseInt(prompt('Введите кол-во баллов по русскому языку:'));
-  const numberOfPointsInComputerScience = parseInt(prompt('Введите кол-во баллов по информатике:'));
-  const totalPoints = numberOfPointsInMathematics + numberOfPointsInRussianLanguage + numberOfPointsInComputerScience;
+// {
+//   const numberOfPointsInMathematics = parseInt(prompt('Введите кол-во баллов по математике:'));
+//   const numberOfPointsInRussianLanguage = parseInt(prompt('Введите кол-во баллов по русскому языку:'));
+//   const numberOfPointsInComputerScience = parseInt(prompt('Введите кол-во баллов по информатике:'));
+//   const totalPoints = numberOfPointsInMathematics + numberOfPointsInRussianLanguage + numberOfPointsInComputerScience;
 
-  if (totalPoints >= 265) {
-    console.log('Поздравляю, вы поступили на бюджет!');
+//   if (totalPoints >= 265) {
+//     console.log('Поздравляю, вы поступили на бюджет!');
+//   } else {
+//     console.log('Увы, вам не хватило баллов')
+//   }
+// }
+
+{
+  const amountOfMoney = parseInt(prompt('Сколько денег вы хотите снять?'));
+
+  if (amountOfMoney % 100 === 0 && amountOfMoney > 0) {
+    console.log('Вы можете снять деньги')
   } else {
-    console.log('Увы, вам не хватило баллов')
+    console.log('Введите сумму кратную 100')
   }
 }
