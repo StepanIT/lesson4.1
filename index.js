@@ -9,20 +9,24 @@
   
   console.log('productTitle: ' , productTitle);
   console.log('totalPrice: ' , totalPrice);
-} 
-{
-  const productTitle = prompt('productTitle');
-  const productQuantity = prompt('productQuantity');
-  const productCategory = prompt('productCategory');
-  const productPrice = prompt('productPrice');
+}
 
-  console.log('productTitle: ' , productTitle);
-  console.log('productQuantity: ' , productQuantity);
-  console.log('productCategory: ' , productCategory);
-  console.log('productPrice: ' , productPrice);
+{
+  const productTitle = prompt('Наименование товара');
+  const productQuantity = prompt('Количество товара');
+  const productCategory = prompt('Категория товара');
+  const productPrice = prompt('Цена товара');
+  const totalPrice = productPrice * productQuantity;
+
+  console.log('Наименование товара: ' , productTitle);
+  console.log('Количество товара: ' , +productQuantity);
+  console.log('Категория товара: ' ,  productCategory);
+  console.log('Цена товара: ' ,  +productPrice);
 
   console.log(typeof productTitle);
-  console.log(typeof productQuantity);
+  console.log(typeof +productQuantity);
   console.log(typeof productCategory);
-  console.log(typeof productPrice);
+  console.log(typeof +productPrice);
+
+  console.log(`"На складе ${productQuantity} единицы товара "${productTitle}" на сумму ${totalPrice} деревянных"`);
 }
