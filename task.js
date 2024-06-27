@@ -1,18 +1,18 @@
   'use strict'
 
-{
-  const rain = Math.random();
+// {
+//   const rain = Math.random();
   
-  // console.log('rain:' , Math.round(rain));
+//   // console.log('rain:' , Math.round(rain));
 
-  if (Math.round(rain) === 1) {
-    console.log('Пошёл дождь. Возьмите зонт!')
-  }
+//   if (Math.round(rain) === 1) {
+//     console.log('Пошёл дождь. Возьмите зонт!');
+//   }
 
-  if (Math.round(rain) === 0) {
-    console.log('Дождя нет!')
-  }
-}
+//   if (Math.round(rain) === 0) {
+//     console.log('Дождя нет!');
+//   }
+// }
   
 // {
 //   const numberOfPointsInMathematics = parseInt(prompt('Введите кол-во баллов по математике:'));
@@ -27,12 +27,12 @@
 //   }
 // }
 
-{
-  const amountOfMoney = parseInt(prompt('Сколько денег вы хотите снять?'));
+// {
+//   const amountOfMoney = parseInt(prompt('Сколько денег вы хотите снять?'));
 
-  if (amountOfMoney % 100 === 0 && amountOfMoney > 0) {
-    console.log('Вы можете снять деньги')
-  } else {
-    console.log('Введите сумму кратную 100')
-  }
-}
+//   if (amountOfMoney % 100 === 0 && amountOfMoney > 0) {
+//     console.log('Вы можете снять деньги');
+//   } else {
+//     console.log('Введите сумму кратную 100');
+//   }
+// }
