@@ -1,9 +1,9 @@
 'use strict'
 
 const changeString = (line) => {
-  let newLine = line.charAt(0).toUpperCase() + line.slice(1);
-
-  console.log('newLine:' , newLine);
+  let newLine = line.charAt(0).toUpperCase() + line.slice(1).toLowerCase();
+  return newLine;
 }
 
-changeString('привет Мир')
+const resultOfChangingTheString = changeString('привет Мир');
+console.log('newLine:' , resultOfChangingTheString);

@@ -6,5 +6,5 @@ const euroExchangeRate = (euro) => {
   return ruble;
 }
 
-const res = euroExchangeRate(20);
+const res = euroExchangeRate(200);
 console.log('ruble:' , res);
